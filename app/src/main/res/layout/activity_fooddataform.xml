@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+        <EditText
+            android:layout_width="384dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:hint="Name"
+            android:id="@+id/e1"/>
+
+        <EditText
+            android:id="@+id/e2"
+            android:layout_width="384dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="14dp"
+            android:hint="Area"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/e1" />
+
+        <EditText
+            android:id="@+id/e3"
+            android:layout_width="384dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="14dp"
+            android:hint="Estimate Quantity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/e2" />
+
+        <EditText
+            android:id="@+id/e4"
+            android:layout_width="384dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="14dp"
+            android:hint="Contact"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/e3" />
+
+        <EditText
+            android:id="@+id/e5"
+            android:layout_width="384dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="14dp"
+            android:hint="Email"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/e3" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="195dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginBottom="164dp"
+            android:text="Submit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/e5" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food_Section">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ngoBackBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/myyellow"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/back" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            app:cardCornerRadius="9dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/purple_200">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/quote"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            app:cardCornerRadius="11dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/myblue">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/ngo1"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/ngo1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/ngo1"
+                    android:text="@string/ngo1"
+                    android:textColor="#FFFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ngo1"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Ashok Nagar, Satpur, Nashik-422007"
+                    android:textColor="#FFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chief- Samadhan Devare"
+                    android:textSize="16sp"
+                    android:textColor="#FFFF"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@id/txt1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact- 9890536895"
+                    android:textSize="16sp"
+                    android:textColor="#FFFF"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@id/text2"/>
+
+                <Button
+                    android:id="@+id/ngo1Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select"
+                    android:backgroundTint="#E57373"
+                    android:layout_marginTop="135dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            app:cardCornerRadius="9dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/mypurple">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/ngo2"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ngo2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/ngo2"
+                    android:text="@string/ngo2"
+                    android:textColor="#FFFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="16, Krushi Bank Society, Govind Nagar, Nashik, Maharashtra 422009"
+                    android:textSize="16sp"
+                    android:textColor="#FFFF"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@id/ngo2"/>
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt3"
+                    android:layout_marginLeft="10dp"
+                    android:text="Chief- Nikhil Bhagwat"
+                    android:textColor="#FFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact_898396353"
+                    android:textSize="16sp"
+                    android:textColor="#FFFF"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@id/text4"/>
+
+                <Button
+                    android:id="@+id/ngo2Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select"
+                    android:backgroundTint="#E57373"
+                    android:layout_marginTop="135dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            app:cardCornerRadius="9dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/myyellow">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/ngo3"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ngo3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/ngo3"
+                    android:text="@string/ngo3"
+                    android:textColor="#FFFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="27, Saileela Towers, Hanuman Wadi, Panchavati, Nashik, Maharashtra 422003"
+                    android:textSize="16sp"
+                    android:textColor="#FFFF"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@id/ngo3"/>
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chief- Vaishali Jadhav"
+                    android:textSize="16sp"
+                    android:textColor="#FFFF"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@id/txt5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact- 02532629939"
+                    android:textSize="16sp"
+                    android:textColor="#FFFF"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@id/text6"/>
+
+                <Button
+                    android:id="@+id/ngo3Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select"
+                    android:backgroundTint="#E57373"
+                    android:layout_marginTop="135dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
